@@ -19,7 +19,7 @@ scripts/
 - root_RC_pulse_shaping.py      — Root raised cosine + Rx/Tx split & matched filtering
 - windowing.py                — Spectral leakage and window functions
 - fft_synthetic.py            — FFT of a synthetic multi-tone signal
-- csv_readwrite.py            — Engineering data I/O with pandas
+- csv_readwrite.py            — Engineering data I/O with pandas  
 outputs/
 - committed plot outputs for each script
 
