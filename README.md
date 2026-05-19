@@ -12,7 +12,7 @@ These scripts work through each of these concepts to produce plots allowing visu
 
 ## Repository structure
 
-python-rf-fundamentals/
+python-rf-fundamentals/  
 scripts/
 - sinc_fundamentals.py — Sinc function properties and Fourier pair
 - raised_cosine_pulse_shaping.py — Raised cosine family in both time and frequency domains 
