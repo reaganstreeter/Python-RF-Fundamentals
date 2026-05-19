@@ -80,13 +80,14 @@ sinc_FFT = fft(sinc)
 freqs = fftfreq(N, d = 1/fs)
 pos_mask = freqs >= 0
 
-# Converting the FFT from linear to decibel scale
+# Converting the FFT from linear to decibel scale and normalising the output
 sinc_FFT_mag = np.abs(sinc_FFT[pos_mask]) / np.max(np.abs(sinc_FFT))
 
-# Creating a second plot with new axes
+# Creating a second plot with new axes, ax2
 fig2, ax2 = plt.subplots(figsize=(10, 5))
 
-ax2.plot(freqs[pos_mask], sinc_FFT_mag , label = r'FFT of normalised sinc', color = 'blue', linewidth = 1.8)
+
+ax2.plot(freqs[pos_mask], sinc_FFT_mag, color = 'blue', linewidth = 1.8)
 # Setting x-axis label
 ax2.set_xlabel('Frequency (Hz)', fontsize = 11)
 # Setting y-axis magnitude label
