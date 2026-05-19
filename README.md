@@ -13,16 +13,15 @@ These scripts work through each of these concepts to produce plots allowing visu
 ## Repository structure
 
 python-rf-fundamentals/
-├── scripts/
-│   ├── sinc_fundamentals.py        — Sinc function properties and Fourier pair
-│   ├── raised_cosine_pulse_shaping.py      — Raised cosine family in both
-│   ├─                                        both time and frequency domains 
-│   ├── root_RC_pulse_shaping.py      — Root raised cosine + Rx/Tx split & matched filtering
-│   ├── windowing.py                — Spectral leakage and window functions
-│   ├── fft_synthetic.py            — FFT of a synthetic multi-tone signal
-│   └── csv_readwrite.py            — Engineering data I/O with pandas
-└── outputs/
-    └── (committed plot outputs for each script)
+scripts/
+- sinc_fundamentals.py — Sinc function properties and Fourier pair
+- raised_cosine_pulse_shaping.py — Raised cosine family in both time and frequency domains 
+- root_RC_pulse_shaping.py      — Root raised cosine + Rx/Tx split & matched filtering
+- windowing.py                — Spectral leakage and window functions
+- fft_synthetic.py            — FFT of a synthetic multi-tone signal
+- csv_readwrite.py            — Engineering data I/O with pandas
+outputs/
+- committed plot outputs for each script
 
 ## Script summaries
 
