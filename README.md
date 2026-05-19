@@ -20,6 +20,7 @@ scripts/
 - windowing.py                — Spectral leakage and window functions
 - fft_synthetic.py            — FFT of a synthetic multi-tone signal
 - csv_readwrite.py            — Engineering data I/O with pandas  
+
 outputs/
 - committed plot outputs for each script
 
@@ -36,8 +37,8 @@ The second plot computes the FFT of a normalised sinc signal with a defined cuto
 **Outputs:**
 
 <p>
-  <img src="outputs/sinc_norm_vs_unnorm.png" width="48%"/>
-  <img src="outputs/sinc_fft.png" width="48%"/>
+  <img src="Outputs/sinc_norm_vs_unnorm.png" width="48%"/>
+  <img src="Outputs/sinc_fft.png" width="48%"/>
 </p>
 
 ### `raised_cosine_pulse_shaping.py`
@@ -51,8 +52,8 @@ This script plots the raised cosine pulse in both the time and frequency domains
 **Outputs:**
 
 <p>
-  <img src="outputs/raised_cosine_TD.png" width="48%"/>
-  <img src="outputs/raised_cosine_FD.png" width="48%"/>
+  <img src="Outputs/raised_cosine_TD.png" width="48%"/>
+  <img src="Outputs/raised_cosine_FD.png" width="48%"/>
 </p>
 
 ### `root_RC_pulse_shaping.py`
@@ -66,8 +67,8 @@ This script plots the time domain and frequency domain representations of the ro
 **Outputs:**
 
 <p>
-  <img src="outputs/rrc_td_plot.png" width="48%"/>
-  <img src="outputs/rrc_fd_plot.png" width="48%"/>
-  <img src="outputs/rrc_rxtx_multiply_fd.png" width="48%"/>
-  <img src="outputs/rrc_rxtx_convolved_td.png" width="48%"/>
+  <img src="Outputs/rrc_td_plot.png" width="48%"/>
+  <img src="Outputs/rrc_fd_plot.png" width="48%"/>
+  <img src="Outputs/rrc_rxtx_multiply_fd.png" width="48%"/>
+  <img src="Outputs/rrc_rxtx_convolved_td.png" width="48%"/>
 </p>
