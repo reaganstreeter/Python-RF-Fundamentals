@@ -17,9 +17,9 @@ scripts/
 - sinc_fundamentals.py — Sinc function properties and Fourier pair
 - raised_cosine_pulse_shaping.py — Raised cosine family in both time and frequency domains 
 - root_RC_pulse_shaping.py      — Root raised cosine + Rx/Tx split & matched filtering
-- windowing.py                — Spectral leakage and window functions
-- fft_synthetic.py            — FFT of a synthetic multi-tone signal
-- csv_readwrite.py            — Engineering data I/O with pandas  
+- windowing.py                — Spectral leakage and window functions (Yet to be added)
+- fft_synthetic.py            — FFT of a synthetic multi-tone signal (Yet to be added)
+- csv_readwrite.py            — Engineering data I/O with pandas (Yet to be added) 
 
 outputs/
 - committed plot outputs for each script
@@ -72,3 +72,16 @@ This script plots the time domain and frequency domain representations of the ro
   <img src="Outputs/rrc_rxtx_multiply_fd.png" width="48%"/>
   <img src="Outputs/rrc_rxtx_convolved_td.png" width="48%"/>
 </p>
+
+## AI Collaboration
+
+This project was developed with assistance from Claude Sonnet 4.6 (Anthropic) as an AI collaborator. AI assistance was used for the following categories of work:
+
+- Conceptual explanation of underlying theory
+- Code syntax implementation based on functional architecture I defined
+- Edge-case identification and handling
+- Partial drafting of README documentation
+
+All design decisions, project architecture, and technical direction are my own.
+All code has been reviewed, tested, and is understood by me. This project is
+governed by my AI Collaboration Policy which can be found on my GitHub profile.
